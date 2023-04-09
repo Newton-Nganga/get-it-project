@@ -1,0 +1,30 @@
+.InbobWrapper{
+    background-color: #dcffdc;
+    display:block;
+    width: 100vw;
+    height: 100vh;
+
+}
+.InboxContainer{
+    display: flex;
+    max-width: 500px;
+    margin: 30px auto;
+    justify-content: center;
+    border: 2px groove #ffffff4f;
+    height: 100vh;
+    padding: 0 2rem;
+}
+
+.item{
+  width: 30rem;
+}
+
+@media screen  and (max-width:500px){
+    .InboxContainer{
+        display: flex;
+        width: 100vw;
+    }
+    .item{
+        width: 90vw;
+    }
+}

@@ -1,0 +1,25 @@
+.NavigationComponent{
+    background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+    color: #ffff;
+    box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+    padding: 20px;
+    font-size: 1.7em;
+    font-family: 'Quicksand', sans-serif;
+}
+#NavigationComponent{
+    font-size: 1.7em;
+    padding: 10px 20px;
+}
+#menuBtn{
+    background: inherit;
+    width: fit-content;
+}
+#menuBtnItems{
+    z-index: 1030;
+    position: absolute;
+    width: 90vw;
+    
+}
+#Categories:hover{
+    color: #ffff;
+}

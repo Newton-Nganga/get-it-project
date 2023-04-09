@@ -1,0 +1,33 @@
+.NotFoundPage{
+    background-color: rgb(220, 255, 220);
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+.NotFoundComponent{
+    background-image:url('./404.png');
+    padding:30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    max-width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#redirectBtn{
+    background: #0f662a;
+    color: white;
+    border-radius: 25px;
+    width: -webkit-fill-available;
+    margin: 10px auto;
+}
+#redirectBtn:hover{
+    background: #0f662a;
+    color: white;
+    border-radius: 25px;
+    width: -webkit-fill-available;
+    margin: 10px auto;
+}

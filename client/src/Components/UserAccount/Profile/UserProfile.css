@@ -1,0 +1,47 @@
+.UserAccountComponent{
+    background-color: #f0f0f0;
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+.Navbar-Section{
+    background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+    margin: 0;
+}
+.Control-Cards{
+  background-color: inherit;
+}
+
+.dashboardWrapper{
+    background-color: #ffff;
+    padding: 30px;
+    display:flex;
+    height: auto;
+    flex-direction: column;
+}
+.userDashboard{
+    display:flex;
+    justify-content: center;
+    padding: 50px;
+    height: auto;
+}
+#avatar{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 2px solid #79a138;
+}
+.insideForm{
+    display:flex;
+    padding-bottom: 20px;
+}
+#delAccount:hover{
+    background-color: #ff2a2a;
+}
+#delProfile:hover{ 
+    background-color: #ff2a2a;}
+@media  screen and (max-width:480) {
+    .dashboardWrapper{
+        margin: auto 20px;
+    }
+}

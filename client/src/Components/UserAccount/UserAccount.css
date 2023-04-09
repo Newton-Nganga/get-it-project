@@ -1,0 +1,45 @@
+
+.Navbar{
+    background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+}
+.userAccountWrapper{
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+.userAccountContainer{
+    max-width: 800px;
+    border:1px solid #cbe1cd;
+    margin: auto;
+    display: block;
+    padding: 20px;
+    border-radius: 20px;
+    /* justify-content: ; */
+}
+.user-info{
+    margin-top: 2.6rem;
+    display: flex;
+    flex-direction: row;
+}
+.userIcon{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  width: auto;
+
+}
+
+.rx{
+margin: 0 10px 0;
+padding: 10px;
+width: -webkit-fill-available;
+}
+@media screen and (max-width:600px) {
+    .user-info{
+        flex-direction: column;
+        display: flex;
+    }
+    
+}

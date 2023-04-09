@@ -1,0 +1,134 @@
+.Footer-Element{
+    position: absolute;
+    width: 100vw;
+    background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+}
+.Footer-Box{
+    margin: 20px auto;
+    padding-top: 3.7em;
+    display: inline-block;
+}
+
+.Developer{
+    text-align: center;
+    /* align-self: left; */
+    
+}
+.Section-Text{
+    color: rgb(194 194 194);
+    font-size: 1.7em;
+    font-weight: 500;
+    text-align: left;
+}
+.DevImage{
+    box-sizing: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+
+
+}
+.error{
+    color:red;
+    font-Size:small;
+}
+#Contacts{
+    padding-top: 3.7em;
+    text-align: left;
+}
+.fx{
+    border-radius: 15px;
+}
+
+@media  (max-width:862px) and (min-width:579px){
+    
+}
+@media screen and (max-width:800px){
+     .Footer-Box{
+         padding-top: inherit;
+     }
+     #Contacts{
+         padding-top: 3.7em;
+     }
+    .Footer-Element{
+        display:flex;
+        flex-direction:column;
+        text-align:left;
+        position: absolute;
+    }
+    .Developer{
+        text-align: left;
+    }
+    .DevImage{
+        display: inline-block;
+        margin: auto;
+    }
+    .Developer > i{
+        display: inline-block;
+    }
+
+
+
+}
+
+  /* Adding comment Section component */
+.CommentSectionWrapper{
+    display: flex;
+    background-color: #dad7cd;
+    width: 100vw;
+    
+}
+.InputFormWrapper{
+    z-index: 1;
+    top: 100px;
+    display: flex;
+    background-color: #f0fff4;
+    padding: 40px;
+    position: relative;
+    width: inherit;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+.inputForm{
+width: -webkit-fill-available;
+max-width: 500px;
+
+display: inline-block;
+}
+
+@media screen and (max-width:620px) {
+    .InputFormWrapper{
+        flex-direction: column;
+        width: 80vw;
+    }
+}
+/* Display comments Section component */
+.Comment-Section{
+    background-color: #f0fff4;
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 1000px;
+    position: relative;
+    bottom: 200px;
+    left: auto;
+    right: auto;
+    align-self: center;
+    border: 0px;
+    margin: 0 auto;
+    display: block;
+}
+.Comment-Text{
+    display: inline-block;
+    margin: auto;
+    max-width: 400px;
+    /* left: 0;
+    top:10px;
+    bottom: 10px; */
+   
+    text-align: center;
+}

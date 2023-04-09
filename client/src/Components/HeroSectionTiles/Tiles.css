@@ -1,0 +1,70 @@
+.Tile-Wrapper{
+    display: block;
+    width: 100vw;
+    background-color: #a3b18a;
+}
+
+.Tiles-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.TilesRow{
+display: inline-flex;
+justify-content: space-between;
+}
+
+.rd{
+    display: inline-flex;
+    margin: 20px auto;
+    border-radius: 5px;
+    width: 180px;
+    height: 200px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Carpenter{
+    background-image: url(./Tile-Images/carpenters.jpg);
+    
+}
+.Hairdresser{
+background-image: url(./Tile-Images/hairdresser.jpg);
+
+}
+.Pharmacy{
+background-image: url(./Tile-Images/pharmacy.jpg);
+}
+.Maid{
+background-image: url(./Tile-Images/maid.jpg);
+}
+.Transporter{
+background-image: url(./Tile-Images/Transporters.jpg);
+}
+.Plumber{
+  background-image: url(./Tile-Images/plumber.jpg);  
+}
+.TileText{ 
+ color: #ffff;
+ margin: auto auto 10px;
+ border-radius: 5px;
+ padding: 10px;
+ font-size: 1.2em;
+ border: 0px;
+ background-color: #23623be6;
+ box-shadow: 0 1px 5px rgb(138 137 137);
+ /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+}
+@media screen and (max-width:700px) {
+    .TilesRow{
+        flex-direction: column;
+    }
+    .Tiles-Container{
+        flex-direction: row;
+    }
+}

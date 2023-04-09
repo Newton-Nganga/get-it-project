@@ -1,0 +1,13 @@
+.Profile-Card{
+    display: block;
+    padding: 10px;
+    max-width: 900px;
+}
+.Profile-Image{
+    display: inline-block;
+    height:150px;
+    width: 150px;
+}
+.Profile-Info{
+    display: inline-block;
+}

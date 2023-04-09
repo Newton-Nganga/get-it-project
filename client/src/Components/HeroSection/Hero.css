@@ -1,0 +1,57 @@
+#Hero-Wrapper{
+/* background-image: url(../../../public/images/hero-img\(maid\).jpg),linear-gradient(
+    -45deg,#fbbe6b,#f13ea3); */
+    background: linear-gradient(90deg, hsla(165, 60%, 11%, 1) 0%, hsla(149, 54%, 31%, 1) 100%);
+    /* background-image:linear-gradient(-45deg,rgba(251, 190, 97, 0.66),rgb(241, 62, 163,0.66)); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100vw;
+  
+}
+
+.HeroMainSection{
+    display: flex;
+    padding: 50px;
+    align-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Hero-Text{
+display: inline-flex;
+flex-direction: column;
+/* background-color:rgb(122, 112, 112); */
+ text-align: left;
+ 
+ overflow-wrap: break-word;
+ 
+ font-family: 'Quicksand', sans-serif;
+ max-width: 600px;
+}
+.HeroSectionImage{
+    display: inline-flex;
+    justify-content: flex-end;
+    position: relative;
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: left;
+    width: auto;
+    /* bottom: 70px;
+    left: 100px; */
+}
+
+
+
+@media  screen and (max-width:700px) {
+    .HeroMainSection{
+        flex-direction: column;
+        padding-top: 0;
+    }
+    .HeroSectionImage{
+        align-self: flex-end;
+        width: 50vw;
+        left: 70px;
+        bottom: 0;
+    }
+}

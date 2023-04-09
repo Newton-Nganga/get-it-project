@@ -1,0 +1,57 @@
+/*         Progress section                 */
+.ProgressComponents{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+
+}
+.ProgressFooter{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 50px;
+}
+.ProgressFooter >Button{
+    padding: 20px 40px;
+    width: auto;
+    background-color: #17a969fd;
+}
+
+.loginCredentialsWrapper{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    background-color: #f0f0f0;
+    font-family: 'Quicksand', sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginCredentialsText{
+    font-family: 'DM Sans', sans-serif;
+}
+.loginCredentialsForm{
+    background-color: #e8fff4b5;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 700px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.loginCredentialsForm > Input{
+    border-radius: 15px;
+    line-height: 1.2;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 10px auto;
+}
+.loginCredentialsForm > Input:focus{
+   border: 0.5px solid #23623be6;
+}
+
+
+

@@ -1,0 +1,28 @@
+.ContactComponent{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.FormComponent{
+  width:500px;
+}
+.ImageComponent{
+ /* width:500px; */
+ display: inline-flex;
+ width: -webkit-fill-available;
+}
+@media screen and (max-width:500px) {
+    .ImageComponent{
+        display: none;
+    }
+    .FormComponent{
+        width:400px;
+        margin: 20px;
+      }
+}
+@media (min-width:500px) and (max-width:824px) {
+    .ImageComponent{
+        display: none;
+    }
+}
